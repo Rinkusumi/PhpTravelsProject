@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="43" passed="39" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-17T08:20:58 IST" name="Suite" finished-at="2022-05-17T08:29:01 IST" duration-ms="483326">
+    <groups>
+    </groups>
+    <test started-at="2022-05-17T08:20:58 IST" name="Test" finished-at="2022-05-17T08:29:01 IST" duration-ms="483326">
+      <class name="com.PhpTravels.ModulesTest.CustomerModuleTest">
+        <test-method is-config="true" signature="onSetup()[pri:0, instance:com.PhpTravels.ModulesTest.CustomerModuleTest@4f49f6af]" started-at="2022-05-17T08:20:58 IST" name="onSetup" finished-at="2022-05-17T08:21:44 IST" duration-ms="45966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onSetup -->
+        <test-method signature="verifyInValidLogin()[pri:1, instance:com.PhpTravels.ModulesTest.CustomerModuleTest@4f49f6af]" started-at="2022-05-17T08:21:44 IST" name="verifyInValidLogin" finished-at="2022-05-17T08:22:03 IST" duration-ms="18532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInValidLogin -->
+        <test-method signature="verifyValidLogin()[pri:2, instance:com.PhpTravels.ModulesTest.CustomerModuleTest@4f49f6af]" started-at="2022-05-17T08:22:03 IST" name="verifyValidLogin" finished-at="2022-05-17T08:22:14 IST" duration-ms="10805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method signature="verifypayPal()[pri:3, instance:com.PhpTravels.ModulesTest.CustomerModuleTest@4f49f6af]" started-at="2022-05-17T08:22:14 IST" name="verifypayPal" finished-at="2022-05-17T08:22:39 IST" duration-ms="25047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifypayPal -->
+        <test-method signature="verifyVoucherDisplay()[pri:4, instance:com.PhpTravels.ModulesTest.CustomerModuleTest@4f49f6af]" started-at="2022-05-17T08:22:39 IST" name="verifyVoucherDisplay" finished-at="2022-05-17T08:22:54 IST" duration-ms="15313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyVoucherDisplay -->
+        <test-method signature="verifyAddressUpdation()[pri:5, instance:com.PhpTravels.ModulesTest.CustomerModuleTest@4f49f6af]" started-at="2022-05-17T08:22:54 IST" name="verifyAddressUpdation" finished-at="2022-05-17T08:23:21 IST" duration-ms="27025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddressUpdation -->
+        <test-method signature="verifyMyBookingLink()[pri:6, instance:com.PhpTravels.ModulesTest.CustomerModuleTest@4f49f6af]" started-at="2022-05-17T08:23:21 IST" name="verifyMyBookingLink" finished-at="2022-05-17T08:23:26 IST" duration-ms="5106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyBookingLink -->
+        <test-method signature="verifyAddFundLink()[pri:7, instance:com.PhpTravels.ModulesTest.CustomerModuleTest@4f49f6af]" started-at="2022-05-17T08:23:26 IST" name="verifyAddFundLink" finished-at="2022-05-17T08:23:31 IST" duration-ms="5019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddFundLink -->
+        <test-method signature="verifyMyProfileLink()[pri:8, instance:com.PhpTravels.ModulesTest.CustomerModuleTest@4f49f6af]" started-at="2022-05-17T08:23:31 IST" name="verifyMyProfileLink" finished-at="2022-05-17T08:23:37 IST" duration-ms="5546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyProfileLink -->
+        <test-method signature="verifyLogoutLink()[pri:9, instance:com.PhpTravels.ModulesTest.CustomerModuleTest@4f49f6af]" started-at="2022-05-17T08:23:37 IST" name="verifyLogoutLink" finished-at="2022-05-17T08:23:45 IST" duration-ms="8257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutLink -->
+      </class> <!-- com.PhpTravels.ModulesTest.CustomerModuleTest -->
+      <class name="com.PhpTravels.ModulesTest.AgentModuleTest">
+        <test-method signature="verifyInValidLogin()[pri:1, instance:com.PhpTravels.ModulesTest.AgentModuleTest@3bcd05cb]" started-at="2022-05-17T08:23:45 IST" name="verifyInValidLogin" finished-at="2022-05-17T08:23:57 IST" duration-ms="11757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInValidLogin -->
+        <test-method signature="verifyValidLogin()[pri:2, instance:com.PhpTravels.ModulesTest.AgentModuleTest@3bcd05cb]" started-at="2022-05-17T08:23:57 IST" name="verifyValidLogin" finished-at="2022-05-17T08:24:10 IST" duration-ms="13196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method signature="verifyMyBookings()[pri:3, instance:com.PhpTravels.ModulesTest.AgentModuleTest@3bcd05cb]" started-at="2022-05-17T08:24:10 IST" name="verifyMyBookings" finished-at="2022-05-17T08:24:15 IST" duration-ms="5037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyBookings -->
+        <test-method signature="verifyAddFunds()[pri:4, instance:com.PhpTravels.ModulesTest.AgentModuleTest@3bcd05cb]" started-at="2022-05-17T08:24:15 IST" name="verifyAddFunds" finished-at="2022-05-17T08:24:19 IST" duration-ms="4221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddFunds -->
+        <test-method signature="verifyMyProfile()[pri:5, instance:com.PhpTravels.ModulesTest.AgentModuleTest@3bcd05cb]" started-at="2022-05-17T08:24:19 IST" name="verifyMyProfile" finished-at="2022-05-17T08:24:25 IST" duration-ms="5668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyProfile -->
+        <test-method signature="verifyHome()[pri:6, instance:com.PhpTravels.ModulesTest.AgentModuleTest@3bcd05cb]" started-at="2022-05-17T08:24:25 IST" name="verifyHome" finished-at="2022-05-17T08:24:37 IST" duration-ms="11980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHome -->
+        <test-method signature="verifyHotels()[pri:7, instance:com.PhpTravels.ModulesTest.AgentModuleTest@3bcd05cb]" started-at="2022-05-17T08:24:37 IST" name="verifyHotels" finished-at="2022-05-17T08:24:54 IST" duration-ms="17122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHotels -->
+        <test-method signature="verifyFlights()[pri:8, instance:com.PhpTravels.ModulesTest.AgentModuleTest@3bcd05cb]" started-at="2022-05-17T08:24:54 IST" name="verifyFlights" finished-at="2022-05-17T08:25:00 IST" duration-ms="5691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlights -->
+        <test-method signature="verifyTours()[pri:9, instance:com.PhpTravels.ModulesTest.AgentModuleTest@3bcd05cb]" started-at="2022-05-17T08:25:00 IST" name="verifyTours" finished-at="2022-05-17T08:25:07 IST" duration-ms="6801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTours -->
+        <test-method signature="verifyVisa()[pri:10, instance:com.PhpTravels.ModulesTest.AgentModuleTest@3bcd05cb]" started-at="2022-05-17T08:25:07 IST" name="verifyVisa" finished-at="2022-05-17T08:25:12 IST" duration-ms="5818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyVisa -->
+        <test-method signature="verifyBlogs()[pri:11, instance:com.PhpTravels.ModulesTest.AgentModuleTest@3bcd05cb]" started-at="2022-05-17T08:25:12 IST" name="verifyBlogs" finished-at="2022-05-17T08:25:18 IST" duration-ms="5916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBlogs -->
+        <test-method signature="verifyOffers()[pri:12, instance:com.PhpTravels.ModulesTest.AgentModuleTest@3bcd05cb]" started-at="2022-05-17T08:25:18 IST" name="verifyOffers" finished-at="2022-05-17T08:25:24 IST" duration-ms="5659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOffers -->
+        <test-method signature="verifyUpdateUSD()[pri:14, instance:com.PhpTravels.ModulesTest.AgentModuleTest@3bcd05cb]" started-at="2022-05-17T08:25:24 IST" name="verifyUpdateUSD" finished-at="2022-05-17T08:25:37 IST" duration-ms="12959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUpdateUSD -->
+        <test-method signature="verifyLogouts()[pri:15, instance:com.PhpTravels.ModulesTest.AgentModuleTest@3bcd05cb]" started-at="2022-05-17T08:25:37 IST" name="verifyLogouts" finished-at="2022-05-17T08:25:45 IST" duration-ms="7491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogouts -->
+      </class> <!-- com.PhpTravels.ModulesTest.AgentModuleTest -->
+      <class name="com.PhpTravels.ModulesTest.SupplierModuleTest">
+        <test-method signature="verifyInValidLogin()[pri:1, instance:com.PhpTravels.ModulesTest.SupplierModuleTest@36804139]" started-at="2022-05-17T08:25:45 IST" name="verifyInValidLogin" finished-at="2022-05-17T08:26:01 IST" duration-ms="16893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInValidLogin -->
+        <test-method signature="verifyValidLogin()[pri:2, instance:com.PhpTravels.ModulesTest.SupplierModuleTest@36804139]" started-at="2022-05-17T08:26:01 IST" name="verifyValidLogin" finished-at="2022-05-17T08:26:16 IST" duration-ms="14297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method signature="verifyText()[pri:3, instance:com.PhpTravels.ModulesTest.SupplierModuleTest@36804139]" started-at="2022-05-17T08:26:16 IST" name="verifyText" finished-at="2022-05-17T08:26:19 IST" duration-ms="3174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyText -->
+        <test-method signature="verifyRevenueBreakdown()[pri:4, instance:com.PhpTravels.ModulesTest.SupplierModuleTest@36804139]" started-at="2022-05-17T08:26:19 IST" name="verifyRevenueBreakdown" finished-at="2022-05-17T08:26:22 IST" duration-ms="3347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRevenueBreakdown -->
+        <test-method signature="verifyStatusFromPendingToConfirmed()[pri:5, instance:com.PhpTravels.ModulesTest.SupplierModuleTest@36804139]" started-at="2022-05-17T08:26:22 IST" name="verifyStatusFromPendingToConfirmed" finished-at="2022-05-17T08:26:35 IST" duration-ms="12966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusFromPendingToConfirmed -->
+        <test-method signature="verifyFlightLink()[pri:6, instance:com.PhpTravels.ModulesTest.SupplierModuleTest@36804139]" started-at="2022-05-17T08:26:35 IST" name="verifyFlightLink" finished-at="2022-05-17T08:26:39 IST" duration-ms="3275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightLink -->
+        <test-method signature="verifyToursLink()[pri:7, instance:com.PhpTravels.ModulesTest.SupplierModuleTest@36804139]" started-at="2022-05-17T08:26:39 IST" name="verifyToursLink" finished-at="2022-05-17T08:26:42 IST" duration-ms="3342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToursLink -->
+        <test-method signature="verifyVisaLink()[pri:8, instance:com.PhpTravels.ModulesTest.SupplierModuleTest@36804139]" started-at="2022-05-17T08:26:42 IST" name="verifyVisaLink" finished-at="2022-05-17T08:26:45 IST" duration-ms="3103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyVisaLink -->
+        <test-method signature="verifyBookingsLink()[pri:9, instance:com.PhpTravels.ModulesTest.SupplierModuleTest@36804139]" started-at="2022-05-17T08:26:45 IST" name="verifyBookingsLink" finished-at="2022-05-17T08:26:58 IST" duration-ms="12692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBookingsLink -->
+      </class> <!-- com.PhpTravels.ModulesTest.SupplierModuleTest -->
+      <class name="com.PhpTravels.ModulesTest.AdminModuleTest">
+        <test-method signature="verifyInValidAdminLogin()[pri:1, instance:com.PhpTravels.ModulesTest.AdminModuleTest@730d2164]" started-at="2022-05-17T08:26:58 IST" name="verifyInValidAdminLogin" finished-at="2022-05-17T08:27:11 IST" duration-ms="13057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInValidAdminLogin -->
+        <test-method signature="verifyValidAdminLogin()[pri:2, instance:com.PhpTravels.ModulesTest.AdminModuleTest@730d2164]" started-at="2022-05-17T08:27:11 IST" name="verifyValidAdminLogin" finished-at="2022-05-17T08:27:24 IST" duration-ms="13658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidAdminLogin -->
+        <test-method signature="verifyBookingLink()[pri:3, instance:com.PhpTravels.ModulesTest.AdminModuleTest@730d2164]" started-at="2022-05-17T08:27:24 IST" name="verifyBookingLink" finished-at="2022-05-17T08:27:30 IST" duration-ms="5778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBookingLink -->
+        <test-method signature="verifyInvoiceLink()[pri:4, instance:com.PhpTravels.ModulesTest.AdminModuleTest@730d2164]" started-at="2022-05-17T08:27:30 IST" name="verifyInvoiceLink" finished-at="2022-05-17T08:27:43 IST" duration-ms="12650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvoiceLink -->
+        <test-method signature="changeBookingStatus()[pri:5, instance:com.PhpTravels.ModulesTest.AdminModuleTest@730d2164]" started-at="2022-05-17T08:27:43 IST" name="changeBookingStatus" finished-at="2022-05-17T08:27:54 IST" duration-ms="10793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeBookingStatus -->
+        <test-method signature="verifyDeleteButton()[pri:5, instance:com.PhpTravels.ModulesTest.AdminModuleTest@730d2164]" started-at="2022-05-17T08:27:54 IST" name="verifyDeleteButton" finished-at="2022-05-17T08:28:27 IST" duration-ms="33793" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="data"]/tbody/tr[1]/td[15]/button"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-M5JHVHLN', ip: '192.168.19.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58286}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 12a04ca6e7b2b7a7b61b73c476832556
+*** Element info: {Using=xpath, value=//*[@id="data"]/tbody/tr[1]/td[15]/button}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="data"]/tbody/tr[1]/td[15]/button"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-M5JHVHLN', ip: '192.168.19.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58286}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 12a04ca6e7b2b7a7b61b73c476832556
+*** Element info: {Using=xpath, value=//*[@id="data"]/tbody/tr[1]/td[15]/button}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy10.click(Unknown Source)
+at com.PhpTravels.Modules.AdminModule.deleteButton(AdminModule.java:79)
+at com.PhpTravels.ModulesTest.AdminModuleTest.verifyDeleteButton(AdminModuleTest.java:87)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteButton -->
+        <test-method signature="verifyDashboardCount()[pri:6, instance:com.PhpTravels.ModulesTest.AdminModuleTest@730d2164]" started-at="2022-05-17T08:28:27 IST" name="verifyDashboardCount" finished-at="2022-05-17T08:28:50 IST" duration-ms="22285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashboardCount -->
+        <test-method signature="verifyWebsiteLink()[pri:7, instance:com.PhpTravels.ModulesTest.AdminModuleTest@730d2164]" started-at="2022-05-17T08:28:50 IST" name="verifyWebsiteLink" finished-at="2022-05-17T08:29:01 IST" duration-ms="11580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWebsiteLink -->
+      </class> <!-- com.PhpTravels.ModulesTest.AdminModuleTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

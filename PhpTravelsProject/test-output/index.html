@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\ADMIN\Desktop\Ict_Exit_Test\PhpTravelsProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">40 methods, 1 failed,   39 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.AdminModuleTest" class="method navigator-link" hash-for-method="verifyDeleteButton">verifyDeleteButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.AdminModuleTest" class="method navigator-link" hash-for-method="changeBookingStatus">changeBookingStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.CustomerModuleTest" class="method navigator-link" hash-for-method="verifyAddFundLink">verifyAddFundLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.AgentModuleTest" class="method navigator-link" hash-for-method="verifyAddFunds">verifyAddFunds</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.CustomerModuleTest" class="method navigator-link" hash-for-method="verifyAddressUpdation">verifyAddressUpdation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.AgentModuleTest" class="method navigator-link" hash-for-method="verifyBlogs">verifyBlogs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.AdminModuleTest" class="method navigator-link" hash-for-method="verifyBookingLink">verifyBookingLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.SupplierModuleTest" class="method navigator-link" hash-for-method="verifyBookingsLink">verifyBookingsLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.AdminModuleTest" class="method navigator-link" hash-for-method="verifyDashboardCount">verifyDashboardCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.SupplierModuleTest" class="method navigator-link" hash-for-method="verifyFlightLink">verifyFlightLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.AgentModuleTest" class="method navigator-link" hash-for-method="verifyFlights">verifyFlights</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.AgentModuleTest" class="method navigator-link" hash-for-method="verifyHome">verifyHome</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.AgentModuleTest" class="method navigator-link" hash-for-method="verifyHotels">verifyHotels</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.AdminModuleTest" class="method navigator-link" hash-for-method="verifyInValidAdminLogin">verifyInValidAdminLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.SupplierModuleTest" class="method navigator-link" hash-for-method="verifyInValidLogin">verifyInValidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.CustomerModuleTest" class="method navigator-link" hash-for-method="verifyInValidLogin">verifyInValidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.AgentModuleTest" class="method navigator-link" hash-for-method="verifyInValidLogin">verifyInValidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.AdminModuleTest" class="method navigator-link" hash-for-method="verifyInvoiceLink">verifyInvoiceLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.CustomerModuleTest" class="method navigator-link" hash-for-method="verifyLogoutLink">verifyLogoutLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.AgentModuleTest" class="method navigator-link" hash-for-method="verifyLogouts">verifyLogouts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.CustomerModuleTest" class="method navigator-link" hash-for-method="verifyMyBookingLink">verifyMyBookingLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.AgentModuleTest" class="method navigator-link" hash-for-method="verifyMyBookings">verifyMyBookings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.AgentModuleTest" class="method navigator-link" hash-for-method="verifyMyProfile">verifyMyProfile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.CustomerModuleTest" class="method navigator-link" hash-for-method="verifyMyProfileLink">verifyMyProfileLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.AgentModuleTest" class="method navigator-link" hash-for-method="verifyOffers">verifyOffers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.SupplierModuleTest" class="method navigator-link" hash-for-method="verifyRevenueBreakdown">verifyRevenueBreakdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.SupplierModuleTest" class="method navigator-link" hash-for-method="verifyStatusFromPendingToConfirmed">verifyStatusFromPendingToConfirmed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.SupplierModuleTest" class="method navigator-link" hash-for-method="verifyText">verifyText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.AgentModuleTest" class="method navigator-link" hash-for-method="verifyTours">verifyTours</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.SupplierModuleTest" class="method navigator-link" hash-for-method="verifyToursLink">verifyToursLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.AgentModuleTest" class="method navigator-link" hash-for-method="verifyUpdateUSD">verifyUpdateUSD</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.AdminModuleTest" class="method navigator-link" hash-for-method="verifyValidAdminLogin">verifyValidAdminLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.SupplierModuleTest" class="method navigator-link" hash-for-method="verifyValidLogin">verifyValidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.AgentModuleTest" class="method navigator-link" hash-for-method="verifyValidLogin">verifyValidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.CustomerModuleTest" class="method navigator-link" hash-for-method="verifyValidLogin">verifyValidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.AgentModuleTest" class="method navigator-link" hash-for-method="verifyVisa">verifyVisa</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.SupplierModuleTest" class="method navigator-link" hash-for-method="verifyVisaLink">verifyVisaLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.CustomerModuleTest" class="method navigator-link" hash-for-method="verifyVoucherDisplay">verifyVoucherDisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.AdminModuleTest" class="method navigator-link" hash-for-method="verifyWebsiteLink">verifyWebsiteLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PhpTravels.ModulesTest.CustomerModuleTest" class="method navigator-link" hash-for-method="verifypayPal">verifypayPal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.PhpTravels.ModulesTest.AdminModuleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDeleteButton">
+                  </a> <!-- verifyDeleteButton -->
+                  <span class="method-name">verifyDeleteButton</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;data&quot;]/tbody/tr[1]/td[15]/button&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;LAPTOP-M5JHVHLN&apos;, ip: &apos;192.168.19.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58286}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 12a04ca6e7b2b7a7b61b73c476832556
+*** Element info: {Using=xpath, value=//*[@id=&quot;data&quot;]/tbody/tr[1]/td[15]/button}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.PhpTravels.Modules.AdminModule.deleteButton(AdminModule.java:79)
+	at com.PhpTravels.ModulesTest.AdminModuleTest.verifyDeleteButton(AdminModuleTest.java:87)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.PhpTravels.ModulesTest.AgentModuleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddFunds">
+                  </a> <!-- verifyAddFunds -->
+                  <span class="method-name">verifyAddFunds</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBlogs">
+                  </a> <!-- verifyBlogs -->
+                  <span class="method-name">verifyBlogs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFlights">
+                  </a> <!-- verifyFlights -->
+                  <span class="method-name">verifyFlights</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHome">
+                  </a> <!-- verifyHome -->
+                  <span class="method-name">verifyHome</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHotels">
+                  </a> <!-- verifyHotels -->
+                  <span class="method-name">verifyHotels</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInValidLogin">
+                  </a> <!-- verifyInValidLogin -->
+                  <span class="method-name">verifyInValidLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogouts">
+                  </a> <!-- verifyLogouts -->
+                  <span class="method-name">verifyLogouts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMyBookings">
+                  </a> <!-- verifyMyBookings -->
+                  <span class="method-name">verifyMyBookings</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMyProfile">
+                  </a> <!-- verifyMyProfile -->
+                  <span class="method-name">verifyMyProfile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyOffers">
+                  </a> <!-- verifyOffers -->
+                  <span class="method-name">verifyOffers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTours">
+                  </a> <!-- verifyTours -->
+                  <span class="method-name">verifyTours</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUpdateUSD">
+                  </a> <!-- verifyUpdateUSD -->
+                  <span class="method-name">verifyUpdateUSD</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyValidLogin">
+                  </a> <!-- verifyValidLogin -->
+                  <span class="method-name">verifyValidLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyVisa">
+                  </a> <!-- verifyVisa -->
+                  <span class="method-name">verifyVisa</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.PhpTravels.ModulesTest.AdminModuleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="changeBookingStatus">
+                  </a> <!-- changeBookingStatus -->
+                  <span class="method-name">changeBookingStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBookingLink">
+                  </a> <!-- verifyBookingLink -->
+                  <span class="method-name">verifyBookingLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDashboardCount">
+                  </a> <!-- verifyDashboardCount -->
+                  <span class="method-name">verifyDashboardCount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInValidAdminLogin">
+                  </a> <!-- verifyInValidAdminLogin -->
+                  <span class="method-name">verifyInValidAdminLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvoiceLink">
+                  </a> <!-- verifyInvoiceLink -->
+                  <span class="method-name">verifyInvoiceLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyValidAdminLogin">
+                  </a> <!-- verifyValidAdminLogin -->
+                  <span class="method-name">verifyValidAdminLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyWebsiteLink">
+                  </a> <!-- verifyWebsiteLink -->
+                  <span class="method-name">verifyWebsiteLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.PhpTravels.ModulesTest.CustomerModuleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddFundLink">
+                  </a> <!-- verifyAddFundLink -->
+                  <span class="method-name">verifyAddFundLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddressUpdation">
+                  </a> <!-- verifyAddressUpdation -->
+                  <span class="method-name">verifyAddressUpdation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInValidLogin">
+                  </a> <!-- verifyInValidLogin -->
+                  <span class="method-name">verifyInValidLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogoutLink">
+                  </a> <!-- verifyLogoutLink -->
+                  <span class="method-name">verifyLogoutLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMyBookingLink">
+                  </a> <!-- verifyMyBookingLink -->
+                  <span class="method-name">verifyMyBookingLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMyProfileLink">
+                  </a> <!-- verifyMyProfileLink -->
+                  <span class="method-name">verifyMyProfileLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyValidLogin">
+                  </a> <!-- verifyValidLogin -->
+                  <span class="method-name">verifyValidLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyVoucherDisplay">
+                  </a> <!-- verifyVoucherDisplay -->
+                  <span class="method-name">verifyVoucherDisplay</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifypayPal">
+                  </a> <!-- verifypayPal -->
+                  <span class="method-name">verifypayPal</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.PhpTravels.ModulesTest.SupplierModuleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBookingsLink">
+                  </a> <!-- verifyBookingsLink -->
+                  <span class="method-name">verifyBookingsLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFlightLink">
+                  </a> <!-- verifyFlightLink -->
+                  <span class="method-name">verifyFlightLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInValidLogin">
+                  </a> <!-- verifyInValidLogin -->
+                  <span class="method-name">verifyInValidLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRevenueBreakdown">
+                  </a> <!-- verifyRevenueBreakdown -->
+                  <span class="method-name">verifyRevenueBreakdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyStatusFromPendingToConfirmed">
+                  </a> <!-- verifyStatusFromPendingToConfirmed -->
+                  <span class="method-name">verifyStatusFromPendingToConfirmed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyText">
+                  </a> <!-- verifyText -->
+                  <span class="method-name">verifyText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyToursLink">
+                  </a> <!-- verifyToursLink -->
+                  <span class="method-name">verifyToursLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyValidLogin">
+                  </a> <!-- verifyValidLogin -->
+                  <span class="method-name">verifyValidLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyVisaLink">
+                  </a> <!-- verifyVisaLink -->
+                  <span class="method-name">verifyVisaLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\ADMIN\Desktop\Ict_Exit_Test\PhpTravelsProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.PhpTravels.ModulesTest.CustomerModuleTest&quot;/&gt;
+      &lt;class name=&quot;com.PhpTravels.ModulesTest.AgentModuleTest&quot;/&gt;
+      &lt;class name=&quot;com.PhpTravels.ModulesTest.SupplierModuleTest&quot;/&gt;
+      &lt;class name=&quot;com.PhpTravels.ModulesTest.AdminModuleTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(40);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyDeleteButton')
+data.setCell(0, 2, 'com.PhpTravels.ModulesTest.AdminModuleTest')
+data.setCell(0, 3, 33793);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyAddressUpdation')
+data.setCell(1, 2, 'com.PhpTravels.ModulesTest.CustomerModuleTest')
+data.setCell(1, 3, 27025);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifypayPal')
+data.setCell(2, 2, 'com.PhpTravels.ModulesTest.CustomerModuleTest')
+data.setCell(2, 3, 25047);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyDashboardCount')
+data.setCell(3, 2, 'com.PhpTravels.ModulesTest.AdminModuleTest')
+data.setCell(3, 3, 22285);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyInValidLogin')
+data.setCell(4, 2, 'com.PhpTravels.ModulesTest.CustomerModuleTest')
+data.setCell(4, 3, 18532);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyHotels')
+data.setCell(5, 2, 'com.PhpTravels.ModulesTest.AgentModuleTest')
+data.setCell(5, 3, 17122);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyInValidLogin')
+data.setCell(6, 2, 'com.PhpTravels.ModulesTest.SupplierModuleTest')
+data.setCell(6, 3, 16893);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyVoucherDisplay')
+data.setCell(7, 2, 'com.PhpTravels.ModulesTest.CustomerModuleTest')
+data.setCell(7, 3, 15313);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyValidLogin')
+data.setCell(8, 2, 'com.PhpTravels.ModulesTest.SupplierModuleTest')
+data.setCell(8, 3, 14297);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyValidAdminLogin')
+data.setCell(9, 2, 'com.PhpTravels.ModulesTest.AdminModuleTest')
+data.setCell(9, 3, 13658);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyValidLogin')
+data.setCell(10, 2, 'com.PhpTravels.ModulesTest.AgentModuleTest')
+data.setCell(10, 3, 13196);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyInValidAdminLogin')
+data.setCell(11, 2, 'com.PhpTravels.ModulesTest.AdminModuleTest')
+data.setCell(11, 3, 13057);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyStatusFromPendingToConfirmed')
+data.setCell(12, 2, 'com.PhpTravels.ModulesTest.SupplierModuleTest')
+data.setCell(12, 3, 12966);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyUpdateUSD')
+data.setCell(13, 2, 'com.PhpTravels.ModulesTest.AgentModuleTest')
+data.setCell(13, 3, 12959);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyBookingsLink')
+data.setCell(14, 2, 'com.PhpTravels.ModulesTest.SupplierModuleTest')
+data.setCell(14, 3, 12692);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyInvoiceLink')
+data.setCell(15, 2, 'com.PhpTravels.ModulesTest.AdminModuleTest')
+data.setCell(15, 3, 12650);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyHome')
+data.setCell(16, 2, 'com.PhpTravels.ModulesTest.AgentModuleTest')
+data.setCell(16, 3, 11980);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyInValidLogin')
+data.setCell(17, 2, 'com.PhpTravels.ModulesTest.AgentModuleTest')
+data.setCell(17, 3, 11757);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyWebsiteLink')
+data.setCell(18, 2, 'com.PhpTravels.ModulesTest.AdminModuleTest')
+data.setCell(18, 3, 11580);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyValidLogin')
+data.setCell(19, 2, 'com.PhpTravels.ModulesTest.CustomerModuleTest')
+data.setCell(19, 3, 10805);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'changeBookingStatus')
+data.setCell(20, 2, 'com.PhpTravels.ModulesTest.AdminModuleTest')
+data.setCell(20, 3, 10793);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyLogoutLink')
+data.setCell(21, 2, 'com.PhpTravels.ModulesTest.CustomerModuleTest')
+data.setCell(21, 3, 8257);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyLogouts')
+data.setCell(22, 2, 'com.PhpTravels.ModulesTest.AgentModuleTest')
+data.setCell(22, 3, 7491);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyTours')
+data.setCell(23, 2, 'com.PhpTravels.ModulesTest.AgentModuleTest')
+data.setCell(23, 3, 6801);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifyBlogs')
+data.setCell(24, 2, 'com.PhpTravels.ModulesTest.AgentModuleTest')
+data.setCell(24, 3, 5916);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifyVisa')
+data.setCell(25, 2, 'com.PhpTravels.ModulesTest.AgentModuleTest')
+data.setCell(25, 3, 5818);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifyBookingLink')
+data.setCell(26, 2, 'com.PhpTravels.ModulesTest.AdminModuleTest')
+data.setCell(26, 3, 5778);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verifyFlights')
+data.setCell(27, 2, 'com.PhpTravels.ModulesTest.AgentModuleTest')
+data.setCell(27, 3, 5691);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verifyMyProfile')
+data.setCell(28, 2, 'com.PhpTravels.ModulesTest.AgentModuleTest')
+data.setCell(28, 3, 5668);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'verifyOffers')
+data.setCell(29, 2, 'com.PhpTravels.ModulesTest.AgentModuleTest')
+data.setCell(29, 3, 5659);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'verifyMyProfileLink')
+data.setCell(30, 2, 'com.PhpTravels.ModulesTest.CustomerModuleTest')
+data.setCell(30, 3, 5546);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'verifyMyBookingLink')
+data.setCell(31, 2, 'com.PhpTravels.ModulesTest.CustomerModuleTest')
+data.setCell(31, 3, 5106);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'verifyMyBookings')
+data.setCell(32, 2, 'com.PhpTravels.ModulesTest.AgentModuleTest')
+data.setCell(32, 3, 5037);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'verifyAddFundLink')
+data.setCell(33, 2, 'com.PhpTravels.ModulesTest.CustomerModuleTest')
+data.setCell(33, 3, 5019);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'verifyAddFunds')
+data.setCell(34, 2, 'com.PhpTravels.ModulesTest.AgentModuleTest')
+data.setCell(34, 3, 4221);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'verifyRevenueBreakdown')
+data.setCell(35, 2, 'com.PhpTravels.ModulesTest.SupplierModuleTest')
+data.setCell(35, 3, 3347);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'verifyToursLink')
+data.setCell(36, 2, 'com.PhpTravels.ModulesTest.SupplierModuleTest')
+data.setCell(36, 3, 3342);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'verifyFlightLink')
+data.setCell(37, 2, 'com.PhpTravels.ModulesTest.SupplierModuleTest')
+data.setCell(37, 3, 3275);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'verifyText')
+data.setCell(38, 2, 'com.PhpTravels.ModulesTest.SupplierModuleTest')
+data.setCell(38, 3, 3174);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'verifyVisaLink')
+data.setCell(39, 2, 'com.PhpTravels.ModulesTest.SupplierModuleTest')
+data.setCell(39, 3, 3103);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">3 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.PhpTravels.ModulesTest.AgentModuleTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">onSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.PhpTravels.ModulesTest.AdminModuleTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">onSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.PhpTravels.ModulesTest.SupplierModuleTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">onSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.PhpTravels.ModulesTest.CustomerModuleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">onSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">verifyInValidLogin</span>
+                <span class="method-start">46269 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyValidLogin</span>
+                <span class="method-start">64869 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifypayPal</span>
+                <span class="method-start">75684 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyVoucherDisplay</span>
+                <span class="method-start">100737 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAddressUpdation</span>
+                <span class="method-start">116070 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMyBookingLink</span>
+                <span class="method-start">143101 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAddFundLink</span>
+                <span class="method-start">148225 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMyProfileLink</span>
+                <span class="method-start">153264 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLogoutLink</span>
+                <span class="method-start">158816 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.PhpTravels.ModulesTest.AgentModuleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyInValidLogin</span>
+                <span class="method-start">167089 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyValidLogin</span>
+                <span class="method-start">178848 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMyBookings</span>
+                <span class="method-start">192046 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAddFunds</span>
+                <span class="method-start">197087 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMyProfile</span>
+                <span class="method-start">201313 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyHome</span>
+                <span class="method-start">206983 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyHotels</span>
+                <span class="method-start">218967 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFlights</span>
+                <span class="method-start">236091 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyTours</span>
+                <span class="method-start">241784 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyVisa</span>
+                <span class="method-start">248587 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyBlogs</span>
+                <span class="method-start">254409 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyOffers</span>
+                <span class="method-start">260326 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyUpdateUSD</span>
+                <span class="method-start">266004 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLogouts</span>
+                <span class="method-start">278965 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.PhpTravels.ModulesTest.SupplierModuleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyInValidLogin</span>
+                <span class="method-start">286459 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyValidLogin</span>
+                <span class="method-start">303354 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyText</span>
+                <span class="method-start">317653 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRevenueBreakdown</span>
+                <span class="method-start">320847 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyStatusFromPendingToConfirmed</span>
+                <span class="method-start">324202 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFlightLink</span>
+                <span class="method-start">337172 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyToursLink</span>
+                <span class="method-start">340464 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyVisaLink</span>
+                <span class="method-start">343809 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyBookingsLink</span>
+                <span class="method-start">346920 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.PhpTravels.ModulesTest.AdminModuleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyInValidAdminLogin</span>
+                <span class="method-start">359615 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyValidAdminLogin</span>
+                <span class="method-start">372678 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyBookingLink</span>
+                <span class="method-start">386345 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyInvoiceLink</span>
+                <span class="method-start">392126 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">changeBookingStatus</span>
+                <span class="method-start">404780 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyDeleteButton</span>
+                <span class="method-start">415577 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDashboardCount</span>
+                <span class="method-start">449415 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyWebsiteLink</span>
+                <span class="method-start">471704 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
